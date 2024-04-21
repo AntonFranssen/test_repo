@@ -8,6 +8,8 @@ from io import BytesIO
 
 app = Flask(__name__)
 
+#SOME_CHANGES_HERE!
+
 @app.route("/")
 def root():
    return '''<form action="/qr" method="GET">
