@@ -12,6 +12,8 @@ app = Flask(__name__)
 #AND HERE!!!
 #AAAAAA LABA
 #yess
+#AAA
+
 
 @app.route("/")
 def root():
